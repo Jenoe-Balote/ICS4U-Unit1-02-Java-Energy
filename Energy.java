@@ -48,7 +48,7 @@ final class Energy {
             final Scanner myObj = new Scanner(System.in);
             // Input
             System.out.println("This program calculates energy released when"
-                             + " the mass of an object is converted to energy.");
+                           + " the mass of an object is converted to energy.");
             System.out.print("Enter the mass of an object (kg): ");
 
             final float mass = myObj.nextFloat();
@@ -60,11 +60,9 @@ final class Energy {
             System.out.println("");
             System.out.println("" + mass + " kg of mass would produce "
                                + energyProduced + " J of energy.");
-        }
-        catch (IOException exception) {
+        } catch (IOException exception) {
             System.out.println("\nThat's not a number!");
-        }
-        finally {
+        } finally {
             System.out.println("\nDone.");
         }
     }
