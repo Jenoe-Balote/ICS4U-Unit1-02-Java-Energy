@@ -58,14 +58,14 @@ final class Energy {
 
             // Output
             System.out.println("");
-            System.out.println("" + mass + "kg of mass would produce "
-                               + energyProduced + "J of energy.");
+            System.out.println("" + mass + " kg of mass would produce "
+                               + energyProduced + " J of energy.");
         }
         catch (IOException exception) {
             System.out.println("\nThat's not a number!");
         }
         finally {
-            System.out.println("\nThanks for using the program!");
+            System.out.println("\nDone.");
         }
     }
 }
